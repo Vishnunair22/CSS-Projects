@@ -1,0 +1,19 @@
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px; /* Adjust the width to fit the squares */
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+}
+
+#board .square:nth-child(odd) {
+    background-color: red;
+}
+
+#board .square:nth-child(even) {
+    background-color: black;
+}
