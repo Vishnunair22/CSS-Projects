@@ -1,0 +1,14 @@
+li{
+    color: blye;
+}
+.done{
+    color: grey;
+}
+#clear{
+    background-color: red;
+    color: #fff;
+}
+#add{
+    background-color: green;
+    color: #fff;
+}
